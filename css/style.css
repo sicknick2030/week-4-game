@@ -1,0 +1,53 @@
+
+#whole {
+	width: 960px;
+	height: 800px;
+}
+
+
+
+.boxes {
+
+    position: relative;
+    float: left;
+    border: 1px solid green;
+}
+
+p {
+	margin: 5px;
+}
+
+h4 {
+	margin: 5px;
+}
+
+.pics {
+	padding: 0px;
+}
+
+#container1 {
+	height: 27%;
+	width: 100%;
+}
+
+#container2 {
+	height: 27%;
+	width: 100%;
+}
+
+#container3 {
+	height: 27%;
+	width: 100%;
+}
+
+#container4 {
+	height: 9%;
+	width: 100%;
+}
+
+#container5 {
+	height: 27%;
+	width: 100%;
+}
+
+

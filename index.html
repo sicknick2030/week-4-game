@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Star Wars Game</title>
+
+		
+
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+
+		
+
+	   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	   <script type="text/javascript" src="javascript/game.js"></script>
+    
+</head> 
+<body>
+
+<div id="whole">
+
+	
+
+	<div id="container1">
+		<h1>Star wars RPG</h1>
+			<button id="boxdarth" class="boxes" value="150" data-atkPower="30" style="height: 150px; width: 150px;">
+				<h4>Darth Vader</h4>
+				<img src="./images/darth.jpg" style="height: 100px; width: 100px" id ="darth" class="pics">
+				<p>150</p>
+			</button>
+			<button id="boxluke" class="boxes" value = "100" style="height: 150px; width: 150px;">
+				<h4>Luke Skywalker</h4>
+				<img src="./images/luke.jpg " style="height: 100px; width: 100px"  id ="luke" class="pics">
+				<p>100</p>
+			</button>
+			<button id="boxobie" class="boxes" value = "120" style="height: 150px; width: 150px;">
+				<h4>Obie-Wan Kenobie</h4>
+				<img src="./images/obie.jpg" style="height: 100px; width: 100px"  id ="obie" class="pics">
+				<p>120</p>
+			</button>
+			<button id="boxyoda" class="boxes" value = "180" style="height: 150px; width: 150px;">
+				<h4>Yoda</h4>
+				<img src="./images/yoda.png" style="height: 100px; width: 100px"  id ="yoda" class="pics">
+				<p>180</p>
+			</button>
+	</div>
+
+	<div id="container2">
+		<h1>Your Character</h1>
+		<div id="myChar"></div>
+	</div>
+
+	<br>
+
+	<div id="container3">
+		<h1>Enemies Available to Attack</h1>
+		<div id="enemies"></div>
+	</div>
+
+	<div id="container4">
+		<h1>Fight Section</h1>
+		<button id="attack">Attack</button>
+	</div>
+
+	<div id="container5">
+		<h1>Defender</h1>
+		<div id="defender"></div>
+	</div>
+
+</div>	
+
+</body>
+</html>
